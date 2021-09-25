@@ -47,10 +47,10 @@ public class Main extends Application {
             }
             v.getChildren().add(h);
         }
-        Image image = new Image(new FileInputStream("C:\\Users\\IT SOLUTION\\IdeaProjects\\C4\\src\\Image\\Connect-4-Header.png"));
-        ImageView imageView = new ImageView(image);imageView.setFitHeight(61.0);imageView.setFitWidth(200.0);imageView.setLayoutX(550.0);imageView.setLayoutY(50.0);
+        //Image image = new Image(new FileInputStream("C:\\Users\\IT SOLUTION\\IdeaProjects\\C4\\src\\Image\\Connect-4-Header.png"));
+        //ImageView imageView = new ImageView(image);imageView.setFitHeight(61.0);imageView.setFitWidth(200.0);imageView.setLayoutX(550.0);imageView.setLayoutY(50.0);
 
-        pane.getChildren().add(v);pane.getChildren().add(reset);pane.getChildren().add(imageView);
+        pane.getChildren().add(v);pane.getChildren().add(reset);//pane.getChildren().add(imageView);
         Scene sc = new Scene(pane);
         window.setScene(sc);
         window.show();
